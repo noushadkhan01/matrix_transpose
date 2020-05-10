@@ -1,4 +1,4 @@
-def transpose_without_numpy2(matrix):
+def transpose_without_numpy(matrix):
   import numpy as np
   #make a copy of original matrix
   if type(matrix) is np.ndarray:
