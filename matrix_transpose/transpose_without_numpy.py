@@ -1,7 +1,7 @@
 def transpose_without_numpy(matrix):
   import numpy as np
   #make a copy of original matrix
-  if type(copy) is np.ndarray:
+  if type(matrix) is np.ndarray:
     copy = matrix.copy()
   else:
     copy = matrix
